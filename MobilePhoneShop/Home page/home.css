@@ -1,0 +1,112 @@
+
+body {
+	margin: 0px;
+	background: url(blackbg.jpg);		
+}
+
+.navigation{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(25,25,25,0.8);
+	position: fixed;
+	margin-left: 0px; 
+}
+
+li{
+	padding-left: 80px;
+}
+
+h1{
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+li,p{
+	display: inline;
+	color: #E1F5FE;
+
+}
+
+a{
+	color: #4FC3F7;
+	text-decoration: none;
+	padding: justify;
+}
+ 
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.sm-container{
+	width: 75%;
+	height: 600px;
+	background: rgba(128,128,128,0.2);
+	align-content: center;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+::-webkit-scrollbar{
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#000, #4FC3F7);
+	height: 10px;
+	border-radius: 80px;
+}
+.sm-container:hover{
+	background-color: #006666;
+	overflow: auto;
+}
+
+td{
+	width: 30%;
+	height: 500px;
+}
+
+h2{
+	font-family: algerian;
+	font-size: 50px;
+	color: #DAF7A6;
+	text-align: center;
+}
+
+.destiny{	
+	border-radius: 50%;
+	width: 100px; 
+	height:80px;
+}
+
+.img{
+	width: 80%;
+	height:450px;
+	border-radius: 10px;
+}
+
+.left, .right{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+}
+
+.container{
+	height: 459px;
+	width: 650px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.left_holder{
+	width: 100px;
+	height: 450px;
+}
+
+.right_holder{
+	width: 100px;
+	height: 450px;
+}
